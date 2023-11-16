@@ -1,0 +1,223 @@
+/*All*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #212A54;
+}
+li, a, button{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} 
+p{
+    padding-top: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #edf0f1;
+    line-height: 1.8;
+    text-decoration: none;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+.tombol{
+    background-color: transparent;
+    border: 2px solid #4997CC;
+    box-shadow: 0px 2px 8px 0px rgba(196, 226, 250, 0.2);
+    text-align: center;
+    margin: 4px 2px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  .tombol:hover{
+    background: linear-gradient(to right, #485BBB, #4997CC);
+    color: white;
+  }
+
+
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 960px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #dbe0e0;
+    font-weight: 10;
+}
+
+span.tagline {
+    padding: 0.5rem .75rem;
+    background: linear-gradient(to right, #485BBB, #4997CC, #5295FA 98.95%);
+    border-radius: .5rem;
+    font-weight: 900;
+    font-size: .75rem;
+}
+
+/*Home*/
+h1.headline {
+    padding-top: 20px;
+    font-size: 3rem;
+    background: linear-gradient(to right, #485BBB, #4997CC, #5295FA 98.95%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 780;
+}
+
+section.biodata .biodata-right {
+    margin-right: 6rem;
+    -webkit-animation: up-down 3s infinite;
+    animation: up-down 3s infinite;
+}
+
+.foto {
+    width: 22rem;
+    transition: ease .3s;
+    margin-right: 5rem;
+}  
+
+.biodata-right img:hover {
+    width: 23rem;
+}
+.besar{
+    font-size: 15px;
+}
+.icon{
+    width: 28px;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+
+
+/*Portofolio*/
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 10px 5%;
+}
+h2.headline {
+    padding-top: 20px;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #485BBB, #4997CC, #5295FA 92.1%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 780;
+}
+section.galeri {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: max-content;
+    margin: 0 auto;
+}
+table{
+    padding-left: 3.4rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3.4rem;
+}
+td.cardgallery{
+    padding-top: 1rem;  
+}
+.cardedu {
+    background-color: #20284a;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+}
+.card-body img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: .75rem;
+}
+.cardedu:hover {
+    rotate: -2deg;
+    transition: ease .5s;
+}
+
+.card-body img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: .75rem;
+}
+
+
+/*Esperience&education*/
+.education-right{
+    padding-left: 7rem;
+}
+h2.subheadline {
+    padding-top: 20px;
+    font-size: 2rem;
+    background: linear-gradient(to right, #485BBB, #4997CC, #5295FA 92.1%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 780;
+}
+
+
+/*Contact*/
+.scan-contact{
+    padding-left: 5rem;
+}
+
+.contact-right{
+    padding-top: 1rem;
+}
+.foto-scan {
+    width: 12rem;
+    transition: ease .3s;
+    margin-right: 5rem;
+}  
+
+.scan-contact img:hover {
+    width: 13.5rem;
+}
+
+
